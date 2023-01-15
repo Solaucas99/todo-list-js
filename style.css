@@ -1,0 +1,84 @@
+body {
+    background-color: red;
+    display: flex;
+}
+
+#container {
+    background-color: white;
+    width: 80%;
+    padding: 30px;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+
+#quadrado {
+    margin: auto;
+}
+
+#todoblock {
+    margin: 0 auto;
+    display: flex;
+}
+
+#todoput {
+    padding: 2%;
+    width: 500px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 1px solid;
+    border-radius: 20px;
+    box-shadow: none;
+}
+
+.fecha, .tarefa {
+    color: red;
+    font-size: 20px;
+    font-family: arial, sans-serif;
+    cursor: pointer;
+}
+
+.tarefa {
+    padding: 10px;
+    background-color: #eee;
+    border-top: 10px solid gray;
+    border-radius: 20px;
+    text-align: center;
+    -webkit-user-select: none; /* Safari */        
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* IE10+/Edge */
+user-select: none; /* Standard */
+text-transform: uppercase;
+margin-top: 10px;
+}
+
+.feito {
+    color: green;
+    text-decoration: line-through;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.fecha {
+    float: right;
+    border-radius:100%;
+    background-color: rgb(228, 226, 226);
+    padding: 3px 7px;
+}
+
+#progressBar {
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+}
+
+#barraProgress {
+    width: 0%;
+    height: 100%;
+}
+
+#porcentagem {
+    position: absolute;
+}
